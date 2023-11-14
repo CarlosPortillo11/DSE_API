@@ -10,6 +10,8 @@ namespace DSE_API.Models
 
         public DbSet<Cuenta> Cuenta { get; set; }
 
+        public DbSet<Transaccion> Transaccion { get; set; }
+
         protected override void ConfigureConventions(ModelConfigurationBuilder builder)
         {
 
